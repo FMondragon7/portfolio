@@ -1,0 +1,40 @@
+---
+import GithubLogo from "../components/githubLogo.astro";
+import LinkedinLogo from "../components/linkedIn.astro";
+---
+
+<header class="flex flex-row justify-between bg-zinc-900">
+  <ul class="flex flex-row py-6 pl-6 text-center gap-6">
+    <li class="cursor-pointer hover:scale-110 inline-block">
+      <a href="#">Fernando Mondragon</a>
+    </li>
+    <li class="cursor-pointer hover:scale-110 inline-block">
+      <a href="#">Projects</a>
+    </li>
+    <li class="cursor-pointer hover:scale-110 inline-block">
+      <a href="#">About</a>
+    </li>
+  </ul>
+  <ul class="flex flex-row py-6 pr-6 text-center gap-6 items-center">
+    <li class="cursor-pointer">
+      <a href="https://github.com/FMondragon7" target="_blank" rel="noopener">
+        <GithubLogo class="w-6 h-6 hover:scale-110" />
+      </a>
+    </li>
+    <li class="cursor-pointer">
+      <a
+        href="https://www.linkedin.com/in/fernando-mondragon-maytorena/"
+        target="_blank"
+        rel="noopener"
+      >
+        <LinkedinLogo class="w-6 h-6 hover:scale-110" />
+      </a>
+    </li>
+    <li class="cursor-pointer hover:scale-110 inline-block">
+      <a href="#">Resume</a>
+    </li>
+    <li class="cursor-pointer hover:scale-110 inline-block">
+      <a href="#">Contact</a>
+    </li>
+  </ul>
+</header>
